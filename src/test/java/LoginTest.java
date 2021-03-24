@@ -26,6 +26,13 @@ public class LoginTest {
 
 
     }
+     @Test
+    public  void dosignout(){
+
+       System.out.println("logout");
+    }
+
+
     @AfterSuite
     public void tearDown(){
 
